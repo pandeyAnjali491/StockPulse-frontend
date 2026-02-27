@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .btn-md-25 {
+    width: 25% !important;
+  }
+}
+#support-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media(max-width: 460px){
+  #support-wrapper{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
