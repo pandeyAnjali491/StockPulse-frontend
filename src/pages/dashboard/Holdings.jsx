@@ -8,7 +8,8 @@ const Holdings = () => {
 
   const [allHoldings , setAllHoldings] = useState([]);
   useEffect(()=>{
-    axios.get(`${process.env.VITE_BACKEND_URL}/allHoldings`).then((res)=>{
+    const backendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000';
+    axios.get(`${backendURL}/allHoldings`).then((res)=>{
       console.log(res.data);
       setAllHoldings(res.data);
     })

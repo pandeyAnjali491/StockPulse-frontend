@@ -8,7 +8,8 @@ const Orders = () => {
   const [allOrders , setAllOrders] = useState([]);
 
   useEffect(()=>{
-    axios.get(`${process.env.VITE_BACKEND_URL}/allOrders`).then((res)=>{
+    const backendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000';
+    axios.get(`${backendURL}/allOrders`).then((res)=>{
       console.log(res);
       setAllOrders(res.data)
     })

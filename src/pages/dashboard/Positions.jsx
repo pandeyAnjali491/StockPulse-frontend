@@ -8,7 +8,8 @@ const Positions = () => {
   const [allPositions , setAllPositions] = useState([]);
 
   useEffect(()=>{
-    axios.get(`${process.env.VITE_BACKEND_URL}/allPositions`).then((res)=>{
+    const backendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000';
+    axios.get(`${backendURL}/allPositions`).then((res)=>{
       console.log(res);
       setAllPositions(res.data)
     })
