@@ -1,12 +1,67 @@
-# React + Vite
+# 🚀 StockPulse Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StockPulse is a modern stock tracking web application that allows users to monitor stock prices, visualize trends, and explore market data through an interactive UI.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 https://stockpulse-frontend-ii45.onrender.com
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📈 Real-time stock price visualization
+* 🔍 Search and explore stocks
+* 📊 Interactive charts and dashboards
+* ⚡ Fast and responsive UI
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript
+* Axios (API calls)
+* Charting Library (Chart.js)
+* CSS / Tailwind
+
+## 📂 Folder Structure
+
+```id="f1"
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── utils/
+ └── App.js
+```
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```id="f2"
+git clone https://github.com/pandeyAnjali491/StockPulse-frontend.git
+```
+
+2. Navigate to project:
+
+```id="f3"
+cd StockPulse-frontend
+```
+
+3. Install dependencies:
+
+```id="f4"
+npm install
+```
+
+4. Start development server:
+
+```id="f5"
+npm start
+```
+
+## 🔗 Backend API
+
+Make sure backend server is running locally or deployed:
+
+```id="f6"
+http://localhost:5000
+```
