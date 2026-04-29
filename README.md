@@ -19,7 +19,7 @@ StockPulse is a modern stock tracking web application that allows users to monit
 * JavaScript
 * Axios (API calls)
 * Charting Library (Chart.js)
-* CSS / Tailwind
+* CSS / Bootstrap
 
 ## 📂 Folder Structure
 
